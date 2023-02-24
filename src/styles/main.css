@@ -1,0 +1,72 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao{
+    width: 50%;
+    padding-left: 150px;
+    padding-top: 180px;
+}
+.informacoes{
+    width: 50%;
+    padding-left: 300px;
+    padding-top: 240px;
+}
+
+.titleGit{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--color-grey-7);
+    margin-bottom: 40px;
+    
+}
+.textGit{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 400px;
+    color: var(--color-grey-7);
+}
+
+
+.titleInfo{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-grey-7);
+    margin-bottom: 45px;
+}
+
+.formUser{
+    display: flex;
+    flex-direction: column;
+}
+.username{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-grey-7);
+    margin-bottom: 24px;
+}
+.inputUser{
+    width: 250px;
+    background: var(--color-grey-1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-grey-7);
+}
+.buttonUser{
+    width: 272px;
+    padding-block: 10px;
+    background: var(--color-brand-2);
+    color: var(--color-grey-7);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,86 @@
+body{
+    width: 1400px;
+    background-color: var(--color-grey-2);
+    max-width: 100%;
+    font-family: var(--font-primary);
+}
+
+main{
+    margin-inline: 200px;
+    margin-top: 60px;
+}
+
+.headerUser{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width:855px;
+}
+.userDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.imgUser{
+    width: 80px;
+    border: 2px solid var(--color-brand-2);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.username{
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--color-grey-7);
+    margin-right: 400px;
+}
+.hrefButton{
+    text-decoration: none;
+    padding-inline: 20px;
+    padding-block: 10px;
+    background-color: var(--color-grey-3);
+    color: var(--color-grey-7);
+    border-radius: 8px;
+}
+
+.projects{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 30px;
+    margin-right: 50px;
+}
+.box{
+    width: 340px;
+    height: 240px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding-inline: 40px;
+    padding-top: 40px;
+}
+.titleBox{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--color-grey-7);
+    margin-bottom: 21px;
+}
+.textBox{
+    width: 330px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+}
+.buttonBox{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-grey-7);
+    background-color: var(--color-grey-2);
+    border: 1px solid var(--color-grey-7);
+    border-radius: 4px;
+    padding: 5px 10px;
+}

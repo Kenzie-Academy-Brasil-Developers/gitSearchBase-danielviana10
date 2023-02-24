@@ -1,0 +1,8 @@
+body{
+  width: 1300px;
+  height: 10rem;
+  background-image: linear-gradient(to left, var(--color-grey-2) 50%, var(--color-brand-1) 50%);
+  max-width: 100%;
+
+  font-family: var(--font-primary)
+}
