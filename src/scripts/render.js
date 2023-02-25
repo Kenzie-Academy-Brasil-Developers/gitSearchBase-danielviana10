@@ -1,4 +1,4 @@
-function createUser(){
+export function createUser(){
     const userLocal = JSON.parse(localStorage.getItem('searchUser'))
     const ulProject = document.querySelector('.projects')
     const headerUser = document.querySelector('.headerUser')
@@ -7,6 +7,7 @@ function createUser(){
     const liUser = document.createElement('li')
     const imgUser = document.createElement('img')
     const liName = document.createElement('li')
+    const aHeader = document.createElement('a')
 
 
     DivUser.classList.add('userDetails')
@@ -18,8 +19,12 @@ function createUser(){
     liName.classList.add('username')
     liName.innerText = userLocal.name
 
+    aHeader.href = "/"
+    aHeader.classList.add('hrefButton')
+    aHeader.innerText = "Trocar de usuário"
+
     liUser.appendChild(imgUser)
-    DivUser.append(liUser,liName)
+    DivUser.append(liUser,liName,aHeader)
     headerUser.appendChild(DivUser)
 
     fetch(userLocal.repos_url)
@@ -48,5 +53,4 @@ function createUser(){
             ulProject.append(liBox)
         });
     })
-}
-createUser()
+}createUser()

@@ -8,4 +8,4 @@ export function searchUser(){
         event.preventDefault()
         const users = await getUserByName(input.value)
     })
-}
+}searchUser()

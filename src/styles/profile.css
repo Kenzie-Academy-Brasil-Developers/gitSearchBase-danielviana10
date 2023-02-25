@@ -8,17 +8,19 @@ body{
 main{
     margin-inline: 200px;
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .headerUser{
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
-    width:855px;
+    justify-content: center;
+    width: 100%;
 }
 .userDetails{
     display: flex;
-    justify-content: center;
     align-items: center;
     list-style: none;
 }
@@ -50,7 +52,6 @@ main{
     justify-content: center;
     margin-top: 70px;
     gap: 30px;
-    margin-right: 50px;
 }
 .box{
     width: 340px;
