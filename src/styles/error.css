@@ -1,7 +1,8 @@
 body{
-    width: 1300px;
+    width: 1400px;
     background-color: var(--color-grey-2);
     font-family: var(--font-primary);
+    max-width: 100%;
 }
 main{
     display: flex;
