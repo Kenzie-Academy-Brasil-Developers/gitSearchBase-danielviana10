@@ -54,7 +54,7 @@ main{
 }
 .box{
     width: 340px;
-    height: 240px;
+    height: 15rem;
     border: 2px solid var(--color-grey-4);
     border-radius: 8px;
     padding-inline: 40px;
@@ -64,12 +64,19 @@ main{
     background-color: var(--color-grey-1);
     border: 2px solid var(--color-grey-7);
 }
+.box:hover .buttonBox{
+    background-color: var(--color-brand-2)
+}
 
 .titleBox{
     font-weight: 500;
     font-size: 20px;
     color: var(--color-grey-7);
     margin-bottom: 21px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .textBox{
     width: 330px;
@@ -78,6 +85,10 @@ main{
     line-height: 150%;
     color: var(--color-grey-6);
     margin-bottom: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .buttonBox{
     text-decoration: none;
@@ -87,5 +98,5 @@ main{
     background-color: var(--color-grey-2);
     border: 1px solid var(--color-grey-7);
     border-radius: 4px;
-    padding: 5px 10px;
+    padding: 8px 10px;
 }
