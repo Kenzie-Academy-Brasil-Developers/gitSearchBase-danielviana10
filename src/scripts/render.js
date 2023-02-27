@@ -19,7 +19,7 @@ export function createUser(){
     liName.classList.add('username')
     liName.innerText = userLocal.name
 
-    aHeader.href = "https://kenzie-academy-brasil-developer"
+    aHeader.href = "https://kenzie-academy-brasil-developers.github.io/gitSearchBase-danielviana10/"
     aHeader.classList.add('hrefButton')
     aHeader.innerText = "Trocar de usuário"
 
